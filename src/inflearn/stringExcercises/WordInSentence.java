@@ -15,8 +15,8 @@ public class WordInSentence {
 		String[] words = input.split(" ");
 		int max = 0;
 
-		for(String w : words) {
-			if(w.length() > max) {
+		for (String w : words) {
+			if (w.length() > max) {
 				max = w.length();
 				answer = w;
 			}
